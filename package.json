@@ -1,0 +1,33 @@
+{
+  "name": "akh.unique",
+  "version": "0.0.0",
+  "description": "Akh unique monad",
+  "author": "Matt Bierner",
+  "license": "MIT",
+  "keywords": [
+    "monad transformer",
+    "monad",
+    "akh",
+    "unique"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattbierner/akh-unique.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattbierner/akh-unique/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "akh.core.spec": "0.x",
+    "akh.identity": "^0.1.0",
+    "akh.state": "^0.0.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha ./tests"
+  }
+}
